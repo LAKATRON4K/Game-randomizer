@@ -1,0 +1,99 @@
+.header{
+    height: 100px;
+    width: auto;
+    background-color:aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.img1{
+    margin-left: 15px;
+    margin-top: 12px;
+    width: 75px;
+    height: 75px;
+}
+.register{
+    width: 70px;
+    height: 70px;
+    margin-top: 12px;
+    border-radius: 30px;
+    background-color: aqua;
+    color: blue;
+    font-family: "Playwrite AU SA";
+    font-size: 12px;
+}
+.Battle{
+    height: 125px;
+}
+
+.easyAi{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color:aliceblue;
+    color: blue;
+    font-family: "Playwrite AU SA";
+    font-size: 32px;
+}
+.gameplay{
+    width: 777px;
+    height: 375px;
+    background-color:bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 64px;
+    font-family: "Playwrite AU SA";
+    border-radius:40px;
+    margin-top: 75px;
+    margin-bottom: 31px;
+}
+.game{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+.title{
+    margin-top: 20px;
+}
+.title1{
+    margin-right: 18px;
+}
+.title0{
+    margin-left: 12px;
+}
+.p{
+    margin-left: 75px;
+}
+footer{
+    background-color: aquamarine;
+    height: 120px;
+
+}
+.title001{
+    font-family: "Playwrite AU SA";
+    padding-top: 25px;
+}
+.title002{
+    font-family: "Playwrite AU SA";
+}
+.footer{
+    padding-left: 20px;
+}
+.Chooseoponent{
+margin-left: 300px;
+margin-top: 120px;
+}
+#name{
+    font-family: "Playwrite AU SA";
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 40px;
+    display: none;
+}
+.header_logo{
+    font-size: 64px;
+    font-family: "Playwrite AU SA";
+    margin-top: 18px;
+}
