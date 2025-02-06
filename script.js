@@ -12,7 +12,7 @@ Reg.ondblclick= function(){
     Name.style.display = "none"
     Reg.innerHTML = "Register"
 }
-Easy.onclick = function(){
+Easy.ondblclick = function(){
     let b =prompt('write number 1 or 2')
     let c = 0
     if(b==1){
@@ -23,4 +23,8 @@ Easy.onclick = function(){
         p.innerHTML = c+1
         p1.innerHTML = c
     }
+}
+Easy.onclick = function(){
+    p.innerHTML = c
+    p1.innerHTML = c
 }
