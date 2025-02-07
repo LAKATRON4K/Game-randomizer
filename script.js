@@ -3,7 +3,10 @@ var Name = document.getElementById('name')
 var Easy = document.getElementById('easy')
 var p1=document.getElementById('p1')
 var p = document.getElementById('p')
-let c = 0
+var Res = document.getElementById('reset')
+let PL = 0
+let II = 0
+let HP =0
 Reg.onclick= function(){
     Name.style.display = "block"
     Reg.innerHTML = "Log out"
@@ -12,19 +15,19 @@ Reg.ondblclick= function(){
     Name.style.display = "none"
     Reg.innerHTML = "Register"
 }
-Easy.ondblclick = function(){
-    let b =prompt('write number 1 or 2')
-    let c = 0
-    if(b==1){
-        p1.innerHTML = c+1
-        p.innerHTML = c
+Easy.onclick = function(){
+    let b =prompt('write number 0 or 1')
+    if(b==Math.floor(Math.random() * 2)){
+        p1.innerHTML = PL++
         
     }else{
-        p.innerHTML = c+1
-        p1.innerHTML = c
+        p.innerHTML = II++
     }
+    
 }
-Easy.onclick = function(){
-    p.innerHTML = c
-    p1.innerHTML = c
+Res.onclick = function(){
+    PL=0
+    II=0
+    p.innerHTML = HP
+    p1.innerHTML = HP
 }
